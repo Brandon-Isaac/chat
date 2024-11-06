@@ -1,5 +1,5 @@
-import * as types from '../constants/ActionTypes'
-import { messageReceived, populateUsersList } from '../actions'
+import * as types from '../Constants/ActionType'
+import { messageReceived, populateUsersList } from '../Actions'
 
 const setupSocket = (dispatch, username) => {
   const socket = new WebSocket('ws://localhost:8989')
