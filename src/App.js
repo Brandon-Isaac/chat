@@ -13,5 +13,5 @@ const App = () => (
     </section>
   </div>
 )
-
+// export the app
 export default App

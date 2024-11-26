@@ -24,7 +24,7 @@ export default function register() {
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location);
     if (publicUrl.origin !== window.location.origin) {
 
-      // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
+      // serve asset; see https://github.com/facebookincubator/create-react-app/issues/2374
       return;
     }
 
